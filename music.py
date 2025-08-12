@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 _LOCK = threading.Lock()
 
 _API_URL = 'https://api.yaohud.cn/api/music/wy'
-_API_KEY = 'API_KEY'  # 請填入你的API_KEY
+_API_KEY = '93R6TfntYUBXGg5W78X'  # 請填入你的API_KEY
 
 @mcp.tool()
 def play_music(song_name: str) -> str:
